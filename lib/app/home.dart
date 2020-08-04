@@ -14,6 +14,7 @@ class _HomeState extends State<Home> {
 
   Widget buildCardMessage(int cryptoCoin) {
     return Card(
+      margin: EdgeInsets.all(10),
       color: Colors.lightBlue,
       elevation: 5.0,
       shape: RoundedRectangleBorder(
