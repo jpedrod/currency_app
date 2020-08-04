@@ -1,3 +1,6 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -28,4 +31,13 @@ const List<String> cryptoList = [
   'LTC',
 ];
 
+const TextStyle textMessage =
+  TextStyle(
+    fontSize: 19.0,
+    color: Colors.white,
+  );
+
+
 class CoinData {}
+
+
