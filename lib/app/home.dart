@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
         setState(() {
           coin = value;
           selectedQuote = value;
-          //prices = coinData;
+          prices = coinData;
         });
       },
     );
